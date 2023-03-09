@@ -6,18 +6,20 @@
 
 i{color: white;}
 
-.bgColorGrey{background-color: rgba(128, 128, 128, 0.5);}
+.bgColorGreyO{background-color: rgba(128, 128, 128, 0.5);}
+.bgColorBlack{background-color: black;}
+.bgColorDGrey{background-color: #222222;}
 
 .flex{
     display: flex;
     flex-direction: row;
 }
 
-/* HEADER */
+/******** HEADER *******/
 
 .boxedH{
+    width: 100%;
     height: 50px;
-    background-color: black;
     color: white;
     padding: 10px;
     justify-content: flex-end;
@@ -27,4 +29,43 @@ i{color: white;}
     padding: 5px;
     border-radius: 5px;
     margin-left: 5px;
+}
+
+/******* MAIN *******/
+
+.boxedM{
+    width: 100%;
+    height: calc(100vh - 150px);
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px 50px;
+}
+
+.photo{
+    width: calc(100% / 7 - 10px);
+    margin: 10px 5px;
+    height: calc(100% / 5 - 20px);
+    background-color: red;
+    position: relative;
+}
+
+.photo img{
+    height: 100%;
+    width: 100%;
+}
+
+.user{
+    color: white;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+/******* FOOTER ******/
+
+.boxedF{
+    width: 100%;
+    height: 100px;
 }
