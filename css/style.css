@@ -3,3 +3,28 @@
     margin: 0;
     padding: 0;
 }
+
+i{color: white;}
+
+.bgColorGrey{background-color: rgba(128, 128, 128, 0.5);}
+
+.flex{
+    display: flex;
+    flex-direction: row;
+}
+
+/* HEADER */
+
+.boxedH{
+    height: 50px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    justify-content: flex-end;
+}
+
+.padH{
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 5px;
+}
