@@ -4,7 +4,9 @@
     padding: 0;
 }
 
-i{color: white;}
+i{color: white;
+cursor: pointer;
+}
 
 .bgColorGreyO{background-color: rgba(128, 128, 128, 0.5);}
 .bgColorBlack{background-color: black;}
@@ -95,6 +97,10 @@ i{color: white;}
 
 .chevron{
     font-size: 10px;
+}
+
+.end{
+    cursor: pointer;
 }
 
 
